@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,10 +14,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.io.IOException;
 
 
-public class PlayGame extends ActionBarActivity {
+public class PlayGame extends AppCompatActivity {
     private final int questionsDelay = 500;
     private final int questionsPoints = 10;
     private final int questionSeconds = 8;
