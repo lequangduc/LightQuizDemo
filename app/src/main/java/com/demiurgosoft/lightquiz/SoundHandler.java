@@ -16,7 +16,7 @@ public class SoundHandler {
 
     public SoundHandler(Context context) {
         this.context = context;
-        correctAnswer = MediaPlayer.create(context, R.raw.correct_answ);
+        correctAnswer = MediaPlayer.create(context, R.raw.owl);
         wrongAnswer = MediaPlayer.create(context, R.raw.wrong_answ);
         //   correctAnswer=MediaPlayer.create(context, R.raw.wrong_answ);
     }

@@ -4,7 +4,7 @@ package com.demiurgosoft.lightquiz;
  * Created by demiurgosoft - 5/12/15
  */
 public enum QuestionGenre {
-    CITY, FOOD, MATH, SCIENCE,HISTORY,SPORTS,GEOGRAPHY;
+    CITY, FOOD, MATH, SCIENCE,HISTORY,SPORTS,GEOGRAPHY,ANIMAL;
 
 
     public static String[] names() {

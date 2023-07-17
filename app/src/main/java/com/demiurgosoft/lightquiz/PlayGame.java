@@ -22,7 +22,7 @@ import java.io.IOException;
 public class PlayGame extends AppCompatActivity {
     private final int questionsDelay = 500;
     private final int questionsPoints = 10;
-    private final int questionSeconds = 8;
+    private final int questionSeconds = 20;
     private int points;
     private int lives;
     private int correctAnswer;
@@ -67,6 +67,7 @@ public class PlayGame extends AppCompatActivity {
                     loadQuestions();
                 } catch (IOException e) {
                     e.printStackTrace();
+
                 }
                 loadLayout();
 
